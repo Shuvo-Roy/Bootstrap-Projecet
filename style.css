@@ -1,4 +1,6 @@
 body{
     font-family: 'Akaya Telivigala', cursive;
-    font-family: 'Open Sans Condensed', sans-serif;
+}
+#skills{
+    padding: 400px 0!important;
 }
