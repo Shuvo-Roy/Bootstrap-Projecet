@@ -3,3 +3,6 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Syne Mono', monospace;
 }
+.height{
+    min-height: 100vh;
+}
