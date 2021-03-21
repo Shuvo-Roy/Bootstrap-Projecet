@@ -14,3 +14,6 @@ body{
 .height-80{
     min-height: 80vh;
 }
+.about-picture{
+    background: url(child-865116.jpg)center/cover no-repeat fixed;
+}
