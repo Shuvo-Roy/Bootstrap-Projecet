@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
     <!-- link style sheet -->
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Project-1</title>
   </head>
   <body>
@@ -292,8 +292,42 @@
           </div>
       </section>
       <!--team section end-->
+      <!-- carousel section-->
+      <section id="carousel" class="py-5 bg-primary">
+          <div class="container">
+              <!-- section-title-->
+              <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>first carousel</strong>
+                    </h1>
+                    <div class="title-underline bg-warning"></div>
+                    <p class="mt-2 text capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!--end section-title-->
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div id="example" class="carousel slide" data-ride="carousel">
+                        <!--indicators-->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to='0' class="active"></li>
+                            <li data-target="#example" data-slide-to='1'></li>
+                            <li data-target="#example" data-slide-to='2'></li>
+                            <li data-target="#example" data-slide-to='3'></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+
+      </section>
+      <!-- carousel section end-->
+      <!--jquery-->
+      
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
   </body>
 </html>
